@@ -1,0 +1,1 @@
+select count(1) from pg_database where datname='{POSTGRESQL_DB}';

@@ -1,0 +1,4 @@
+
+drop database {POSTGRESQL_DB};
+
+create database {POSTGRESQL_DB} WITH OWNER {POSTGRESQL_USER} ENCODING 'UTF8';
